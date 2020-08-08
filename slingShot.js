@@ -43,4 +43,7 @@ class SlingShot{
         console.log("fly")
         this.constraint.bodyA=null
     }
+    attach(body){
+        this.constraint.bodyA=body
+    }
 }
